@@ -1,0 +1,29 @@
+# 发票OCR分类系统 - Python依赖包
+# Invoice OCR Classification System - Python Dependencies
+
+# Excel文件处理
+openpyxl>=3.1.0
+
+# 图片处理
+Pillow>=10.0.0
+
+# PDF文件处理
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# OCR引擎 - PaddleOCR（推荐用于中文发票识别）
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+
+# OFD格式支持（中国电子发票标准格式）
+odfpy>=1.4.0
+
+# 测试框架
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# 属性测试框架
+hypothesis>=6.82.0
+
+# 数据验证和工具
+python-dateutil>=2.8.0
